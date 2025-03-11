@@ -1,4 +1,4 @@
-name: 'CI workflow for feature branches'
+name: 'CI/CD workflow for feature branches'
 
 on:
   push:
