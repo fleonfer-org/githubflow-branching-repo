@@ -12,3 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "CI workflow for main branch..."
+  CD:
+    runs-on: ubuntu-latest
+    environment: 'Prod'
+    steps:
+      - run: echo "CD workflow for main branch"

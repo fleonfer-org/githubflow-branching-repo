@@ -13,3 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "CI workflow for feature branches..."
+  CD:
+    runs-on: ubuntu-latest
+    environment: 'Dev'
+    steps:
+      - run: echo "CD workflow for feature branches"
