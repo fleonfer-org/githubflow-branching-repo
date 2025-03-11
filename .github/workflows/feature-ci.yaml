@@ -9,11 +9,11 @@ on:
     branches: ['main']
 
 jobs:
-  CI:
+  feature-CI:
     runs-on: ubuntu-latest
     steps:
       - run: echo "CI workflow for feature branches..."
-  CD:
+  feature-CD:
     runs-on: ubuntu-latest
     environment: 'Dev'
     steps:
