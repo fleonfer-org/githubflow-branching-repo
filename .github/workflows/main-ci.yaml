@@ -8,10 +8,6 @@ on:
       - '.github/**'
 
 jobs:
-  main-CI:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "CI workflow for main branch..."
   main-CD:
     runs-on: ubuntu-latest
     environment: 'Prod'

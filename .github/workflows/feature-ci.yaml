@@ -1,20 +1,13 @@
-name: 'CI/CD workflow for feature branches'
+name: 'CI workflow for feature branches'
 
 on:
   push:
     branches: ['feature/**']
     paths-ignore:
       - '.github/**'
-  # pull_request:
-  #   branches: ['main']
 
 jobs:
-  feature-CI:
+  Dev-CI:
     runs-on: ubuntu-latest
     steps:
       - run: echo "CI workflow for feature branches..."
-  feature-CD:
-    runs-on: ubuntu-latest
-    environment: 'Dev'
-    steps:
-      - run: echo "CD workflow for feature branches"
