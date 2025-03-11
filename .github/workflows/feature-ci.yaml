@@ -1,0 +1,13 @@
+name: 'CI workflow for feature branches'
+
+on:
+  push:
+    branches: ['feature/**']
+  pull_request:
+    branches: ['feature/**']
+
+jobs:
+  CI:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "CI workflow for feature branches..."

@@ -1,0 +1,11 @@
+name: 'CI workflow for main branch'
+
+on:
+  push:
+    branches: ['main']
+
+jobs:
+  CI:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "CI workflow for main branch..."
