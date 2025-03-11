@@ -5,8 +5,8 @@ on:
     branches: ['feature/**']
     paths-ignore:
       - '.github/**'
-  pull_request:
-    branches: ['main']
+  # pull_request:
+  #   branches: ['main']
 
 jobs:
   feature-CI:
