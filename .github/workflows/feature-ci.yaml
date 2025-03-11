@@ -3,6 +3,8 @@ name: 'CI workflow for feature branches'
 on:
   push:
     branches: ['feature/**']
+    paths-ignore:
+      - '.github/**'
   pull_request:
     branches: ['feature/**']
 
