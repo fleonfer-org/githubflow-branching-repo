@@ -16,3 +16,4 @@ No dedicated release branches: managing long-running features or hotfixes can be
 ## Branch:
 Master/main (default): primary branch, always in a deployable state
 Feature: for new features or fixes and merged back into master/main once completed
+
